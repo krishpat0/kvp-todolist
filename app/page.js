@@ -84,7 +84,7 @@ const page = () => {
         </div>
 
         <hr />
-        <div className="bg-slate-200 p-8 output">
+        <div className="bg-slate-300 p-8 output">
           <ul>{renderTask}</ul>
         </div>
       </div>

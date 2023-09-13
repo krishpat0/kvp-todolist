@@ -59,10 +59,10 @@ button {
 } */
 
 .content {
-  height: 200px;
+  height: 50%;
 }
 .output {
-  height: 100vh;
+  height: 50%;
 }
 @media (max-width: 640px) {
   .container {
@@ -74,6 +74,6 @@ button {
     height: 50%;
   }
   .output {
-    height: 100vh;
+    height: 50%;
   }
 }
