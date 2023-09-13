@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,53 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+/* 
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+h1 {
+  background-color: black;
+  height: 10vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+input {
+  margin: 10px;
+  border: 1px solid brown;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+  background-color: tomato;
+  border-radius: 10px;
+  width: 100px;
+} */
+
+.content {
+  height: 200px;
+}
+.output {
+  height: 100vh;
+}
+@media (max-width: 640px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .output {
+    height: 100vh;
+  }
 }
